@@ -48,4 +48,5 @@ jobs:
         file: ${{ github.workspace }}/dist/worker.js
         asset_name: worker.js
         tag: ${{ github.ref }}
+        prerelease: true
         overwrite: true
